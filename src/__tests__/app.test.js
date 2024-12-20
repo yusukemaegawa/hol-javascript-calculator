@@ -26,6 +26,6 @@ describe('Calculator Functions', () => {
     });
 
     test('divide function handles division by zero', () => {
-        expect(divide(1, 0)).toBe(Infinity);
+        expect(() => divide(1, 0)).toThrow("Division by zero");
     });
 });
