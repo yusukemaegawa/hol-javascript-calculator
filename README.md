@@ -27,15 +27,12 @@
    npm install
    ```
 
-4. アプリケーションを起動します。
+4. テストを実行します。
    ```
-   npm start
+   npm run test
    ```
 
-5. テストを実行します。
-   ```
-   npm test
-   ```
+5. `src/index.html`をブラウザで開きます。
 
 ## 使用方法
 
